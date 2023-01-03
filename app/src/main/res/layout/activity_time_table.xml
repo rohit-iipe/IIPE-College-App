@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeTable"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Time Table"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/h1"
+
+android:layout_marginTop="50dp"
+
+
+
+        >
+
+        <TextView
+            android:id="@+id/ch1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"
+
+
+
+            android:text="1st year CH" />
+
+        <TextView
+            android:id="@+id/pe1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"
+
+            android:text="1st year PE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:id="@+id/ch2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"
+
+            android:text="2nd year CH" />
+
+        <TextView
+            android:id="@+id/pe2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"
+
+            android:text="2nd year PE" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l2"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:id="@+id/ch3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"
+
+            android:text="3rd year CH" />
+
+        <TextView
+            android:id="@+id/pe3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="3rd year PE"
+
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l3"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:id="@+id/ch4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"
+
+            android:text="4th year CH" />
+
+        <TextView
+            android:id="@+id/pe4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="4th year PE"
+
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="3dp"
+            android:background="#63C7E8"
+            android:padding="3dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

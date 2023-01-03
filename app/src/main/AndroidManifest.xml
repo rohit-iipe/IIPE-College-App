@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iipe_take1">
+
+    <application
+        android:fullBackupOnly="true"
+        android:icon="@drawable/iipe_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IIPE">
+        <activity
+            android:name=".contact"
+            android:exported="true" />
+        <activity
+            android:name=".calender"
+            android:exported="true" />
+        <activity
+            android:name=".n1"
+            android:exported="true" />
+        <activity
+            android:name=".Book1"
+            android:exported="true" />
+        <activity
+            android:name=".result"
+            android:exported="true" />
+        <activity
+            android:name=".library"
+            android:exported="true" />
+        <activity
+            android:name=".notice"
+            android:exported="true" />
+        <activity
+            android:name=".attendance"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".PE3TIMETABLE"
+            android:exported="true" />
+        <activity
+            android:name=".CH3TIMETABLE"
+            android:exported="true" />
+        <activity
+            android:name=".TimeTable"
+            android:exported="true" />
+        <activity
+            android:name=".Curriculum"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="Second Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

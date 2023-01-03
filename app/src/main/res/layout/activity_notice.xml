@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notice">
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Notice"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/notice"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FAAAAA"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="1. Notice-1 Dated: 07-11-2022"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="2. Notice-2 Dated: 07-11-2022"
+        android:layout_below="@+id/n1"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:background="#FAAAAA"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+
+
+        />
+</RelativeLayout>

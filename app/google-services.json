@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "208046304193",
+    "firebase_url": "https://iipe-take1-default-rtdb.firebaseio.com",
+    "project_id": "iipe-take1",
+    "storage_bucket": "iipe-take1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208046304193:android:cb9b1ca0375191ddbe5d40",
+        "android_client_info": {
+          "package_name": "com.example.iipe_take1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208046304193-37pt1mcdh2g8cpksrmpas98fc6jb3bp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iipe_take1",
+            "certificate_hash": "ae4791ad51b05482613c9cfe0b6c2853a83dd308"
+          }
+        },
+        {
+          "client_id": "208046304193-nihadj737eqd5kfm7so0751t8sophot6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCka3ZPBJCdSpfyj7ALy35UJtbqegb21_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208046304193-nihadj737eqd5kfm7so0751t8sophot6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
